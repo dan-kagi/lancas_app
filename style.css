@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #2f0787;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.buttons {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#performance {
+  font-weight: 700;
+  width: 180px;
+  height: 35px;
+}
+#shakings {
+  font-weight: 700;
+  width: 180px;
+  height: 35px;
+}
+#clear {
+  font-weight: 700;
+  width: 180px;
+  height: 35px;
+}
+#parameters {
+  font-size: 14px;
+  color: white;
+  margin-top: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
+
+.parameter {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+label {
+  width: 200px;
+  text-align: left;
+}
+
+#calculate {
+  margin-bottom: 10px;
+}
+input {
+  width: 50px;
+  margin-left: 10px;
+  align-items: right;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+}
+
+#output {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
