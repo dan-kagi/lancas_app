@@ -83,6 +83,7 @@ label {
 }
 
 input {
+  font-weight: 700;
   width: 60px;
   background-color: white;
   margin-left: 10px;
