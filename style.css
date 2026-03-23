@@ -42,7 +42,7 @@ h1 {
   border-radius: 20px;
 }
 #performance:hover {
-  border: 2px solid red;
+  border: 3px solid gold;
 }
 #shakings {
   font-weight: 700;
@@ -51,7 +51,7 @@ h1 {
   border-radius: 20px;
 }
 #shakings:hover {
-  border: 2px solid red;
+  border: 3px solid gold;
 }
 #clear {
   font-weight: 700;
@@ -60,7 +60,7 @@ h1 {
   border-radius: 20px;
 }
 #clear:hover {
-  border: 2px solid red;
+  border: 3px solid gold;
 }
 #parameters {
   font-size: 14px;
@@ -95,7 +95,7 @@ label {
 }
 
 #calculate:hover {
-  border: 2px solid red;
+  border: 3px solid gold;
 }
 
 input {
@@ -106,7 +106,9 @@ input {
   align-items: right;
   text-align: center;
 }
-
+input:hover {
+  border: 3px solid gold;
+}
 button {
   width: 150px;
 }
