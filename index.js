@@ -126,9 +126,9 @@ function showLABELS(parameters) {
   calculateBUTTON.addEventListener('click', () => {
     clearOUTPUT();
     const result = calculate();
-    outputDIV = document.getElementById('output');
-    outputDIV.style.border = '5px solid grey';
     if (result) {
+      outputDIV = document.getElementById('output');
+      outputDIV.style.border = '5px solid grey';
       if (flag_PERFORMACE === true) {
         for (let i = 0; i < result.masses.length; i++) {
           const resultDIV = document.createElement('div');
