@@ -56,13 +56,16 @@ h1 {
 label {
   width: 200px;
   text-align: left;
+  font-weight: 700;
 }
 
 #calculate {
   margin-bottom: 10px;
+  font-weight: 700;
 }
 input {
-  width: 50px;
+  width: 60px;
+  background-color: white;
   margin-left: 10px;
   align-items: right;
   text-align: center;
