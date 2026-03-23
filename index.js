@@ -199,3 +199,6 @@ function clearOUTPUT() {
     outputDIV.removeChild(outputDIV.firstChild);
   }
 }
+
+document.querySelector('footer').innerHTML =
+  `<p>Copyright &copy; Danilo Morais Itokagi. All rights reserved. ${new Date().getFullYear()}</p>`;
