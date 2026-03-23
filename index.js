@@ -152,7 +152,7 @@ function showLABELS(parameters) {
         sums += Number(mass);
       }
       const totalDIV = document.createElement('div');
-      totalDIV.textContent = `Total: ${sums}`;
+      totalDIV.textContent = `Total: ${sums.toFixed(4)}`;
       outputDIV.appendChild(totalDIV);
     }
   });
